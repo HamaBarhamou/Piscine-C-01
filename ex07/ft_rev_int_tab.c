@@ -6,11 +6,9 @@
 /*   By: bissaka- <bissaka-@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 00:32:59 by bissaka-          #+#    #+#             */
-/*   Updated: 2021/09/14 01:18:43 by bissaka-         ###   ########.fr       */
+/*   Updated: 2021/09/14 21:32:24 by bissaka-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include<stdio.h>
 
 void	ft_rev_int_tab(int *tab, int size)
 {
@@ -31,3 +29,14 @@ void	ft_rev_int_tab(int *tab, int size)
 		i++;
 	}
 }
+
+/*int	main(void)
+{
+	int tab[]={1,2,3,4};
+	int i=0;
+	printf("avant permutation ");
+	for(i=0;i<4;i++) printf("%d ",tab[i]);
+	ft_rev_int_tab(tab,4);
+	printf("\napres permutation ");
+	for(i=0;i<4;i++) printf("%d ",tab[i]);
+}*/
